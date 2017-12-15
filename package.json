@@ -1,0 +1,18 @@
+{
+  "name": "ordered-hash",
+  "version": "0.0.1",
+  "description": "A hash that keeps an ordering with efficient methods",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
