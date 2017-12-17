@@ -17,7 +17,6 @@ function create () {
   return hash
 }
 
-
 OrderedHash.push = push
 function push (key, val, hash) {
   if (hash.indexes.hasOwnProperty(key)) throw new Error('Already has key: ' + key)
@@ -116,7 +115,7 @@ function remove (key, hash) {
   var limit
   var incr
   var compare
-  if (hash.last - i < hash.first + i) {
+  if (hash.last - idx < hash.first + idx) {
     // closer to end
     limit = hash.last
     incr = 1
